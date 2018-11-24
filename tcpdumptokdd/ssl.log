@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2018-07-03-15-31-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string
+1530612091.169201	CoZ5aJgzZk9lSC67f	192.168.1.10	45114	172.217.163.195	443	TLSv12	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256	-	www.gstatic.com	T	-	h2	T	-	-	-	-	-	-
+1530612102.485457	CQ8oJC1o6idNdBSsOh	192.168.1.10	43196	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.487779	CWyjFT2C3zANx1qZek	192.168.1.10	43194	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.483090	CVbZdF21H8jae1ueCj	192.168.1.10	43190	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.490234	CvJNQA1vyLtuprG9T3	192.168.1.10	43192	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.492649	CGndMj3i7XK8Yu0603	192.168.1.10	43188	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.495057	Ce2Jn72yfbknJ8nAx	192.168.1.10	43186	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.707079	CsnAlD4pfqQlnCo7yg	192.168.1.10	33128	192.30.253.113	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612102.967667	Cri5Rg2zIbP3m003R	192.168.1.10	33142	192.30.253.113	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612103.810384	CsplIM3aikgUeh29G7	192.168.1.10	43204	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612103.811776	CqRoj9O4nCCPcKzNa	192.168.1.10	43202	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612103.812782	CdMYLp35OL7YpvjK4g	192.168.1.10	43200	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	assets-cdn.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.101932	CP5CGh4HVvsfDzNxJd	192.168.1.10	43206	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	avatars0.githubusercontent.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.124918	CxvC8x308ophpD6ps9	192.168.1.10	43216	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	avatars3.githubusercontent.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.125918	COKJXDcNQE3EZojxf	192.168.1.10	43212	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	avatars3.githubusercontent.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.127295	CVxuzOjd6HE9Uq0s7	192.168.1.10	43208	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	avatars0.githubusercontent.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.128190	CZYcz8JYHp8RL2cP9	192.168.1.10	43214	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	avatars2.githubusercontent.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.130931	CcefPc4gjwuXf6iSnc	192.168.1.10	43210	151.101.156.133	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	avatars2.githubusercontent.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612104.647412	C1ASj34hlxQWOkBBte	192.168.1.10	34500	35.171.223.36	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	collector.githubapp.com	T	-	-	T	-	-	-	-	-	-
+1530612104.911678	CZDUAvbcWUbM9zK1c	192.168.1.10	34502	35.171.223.36	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	collector.githubapp.com	T	-	-	T	-	-	-	-	-	-
+1530612105.512843	CiNc0a1YQRSA1rVXo6	192.168.1.10	46816	192.30.253.116	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	api.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612105.839496	C8N8Iz4mB03v44JFib	192.168.1.10	46818	192.30.253.116	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	api.github.com	T	-	http/1.1	T	-	-	-	-	-	-
+1530612108.936257	CifWqR3QyvD3BHjsle	192.168.1.10	51552	45.251.32.45	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	r2---sn-3oxupo-h55e.googlevideo.com	T	-	-	T	-	-	-	-	-	-
+1530612108.938626	CS6ybnY3EFU0IuqR1	192.168.1.10	51554	45.251.32.45	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	r2---sn-3oxupo-h55e.googlevideo.com	T	-	-	T	-	-	-	-	-	-
+#close	2018-07-03-15-31-51

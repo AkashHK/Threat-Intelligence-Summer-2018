@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2018-07-03-15-31-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1530612097.537060	Cmr2Rf3se1oMryVjg3	192.168.1.10	46684	212.71.233.103	443	bad_TCP_checksum	-	F	bro
+1530612110.182532	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2018-07-03-15-31-51

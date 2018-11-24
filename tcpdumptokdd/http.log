@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2018-07-03-15-23-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1530611596.937155	CFa2NVdA0XZ19Pnj	192.168.1.10	45498	172.217.163.206	80	1	POST	ocsp.pki.goog	/GTSGIAG3	-	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0	75	463	200	OK	-	-	-	(empty)	-	-	-	FMm3QL75g3WTOrxid	application/ocsp-request	FQqaka2bbERm8OPBL5	application/ocsp-response
+1530611620.366688	CFa2NVdA0XZ19Pnj	192.168.1.10	45498	172.217.163.206	80	2	POST	ocsp.pki.goog	/GTSGIAG3	-	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0	75	463	200	OK	-	-	-	(empty)	-	-	-	FCqcx33C7BT1zizAa2	application/ocsp-request	FyFUIClZwbdZruiIi	application/ocsp-response
+1530611620.375478	CDdOdr3trcjgSLQlFa	192.168.1.10	45548	172.217.163.206	80	1	POST	ocsp.pki.goog	/GTSGIAG3	-	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0	75	463	200	OK	-	-	-	(empty)	-	-	-	Fg71Mp2RSi4UGiyMCi	application/ocsp-request	Fp9NdWZYvWcLvlVN3	application/ocsp-response
+#close	2018-07-03-15-23-44

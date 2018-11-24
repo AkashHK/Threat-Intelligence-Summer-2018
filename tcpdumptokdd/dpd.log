@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2018-07-01-16-47-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1530443821.333366	Ch2uWnwU0erksn7e6	192.168.1.10	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large
+1530443823.666395	CiWaGC1fiXcHIqnDv7	fe80::c935:8dd1:c775:1ed5	5353	ff02::fb	5353	udp	DNS	DNS_Conn_count_too_large
+#close	2018-07-01-16-47-12

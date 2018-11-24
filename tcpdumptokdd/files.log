@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2018-07-03-15-30-55
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1530612054.385791	FzvN1mjA3ypcsJyw6	64.233.184.94	192.168.1.10	CfHnZp2RUWR4zrFeNk	SSL	0	MD5,X509,SHA1	application/pkix-cert	-	0.000000	-	F	1939	-	0	0	F	-	c660c775e8e91649d1bcd4eea4d9015d	ef4ae5f84f63e12f26d94b12ab346a4e2c13465f	-	-
+1530612054.385791	FxxtI619c4AAAxMXih	64.233.184.94	192.168.1.10	CfHnZp2RUWR4zrFeNk	SSL	0	MD5,X509,SHA1	application/pkix-cert	-	0.000000	-	F	1120	-	0	0	F	-	c4b81c95681acacb644c0770add564e1	eeacbd0cb452819577911e1e6203db262f84a318	-	-
+#close	2018-07-03-15-30-55
